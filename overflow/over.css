@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+div{
+    display: inline-block;
+    border: 1vh solid black;
+    background-color: burlywood;
+    height: 50vh;
+    width: 30vw;
+    margin: 25vh .1vw;
+    font-size: 5vh;
+    /* overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden; */
+}
+#parent {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: scroll;
+}
+#parent2 {
+    overflow: auto;
+}
+#parent3 {
+    overflow: scroll
+}
+img {
+     width: 280px;
+     height: 400px;
+
+}
+article {
+    width: 500px;
+    height: 500px;
+    background-color: chartreuse;
+}
