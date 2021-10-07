@@ -7,6 +7,10 @@ header {
     overflow: hidden;
     box-shadow: 0px 0px 14px 5px red,0px 0px 14px 20px blue;
 }
+header, header:first-of-type > img:nth-last-of-type(1){
+                display: block;
+                margin: auto;
+    }
 section, main {
     height: 32%;
 }
@@ -23,13 +27,6 @@ section:first-of-type > article:nth-of-type(1):hover {
     background-position: center center;
     background-repeat: no-repeat;
 }
-section:first-of-type > article:nth-of-type(1):hover {
-        background-image: url(https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1258&q=80);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        
-    }
 section:first-of-type > article:nth-of-type(2){
     margin: 0 2%;
 }
@@ -38,16 +35,10 @@ section:first-of-type > article:nth-of-type(2):hover {
     background-size: cover;
     width: 32%;
     margin: auto;
-    }
-section:first-of-type > article:nth-of-type(2):hover {
-    background-image: url(./photo-1505691938895-1758d7feb511.jpeg);
-    background-size: cover;
     background-position: center;
-        
+    
     }
-    section:first-of-type > article:nth-of-type(3):hover {
-        background-color: burlywood;
-    }
+    
     
     section:nth-of-type(2):hover{
         background-image: url(./photo-1633327760690-d9bb0513f942.jpeg);
@@ -58,17 +49,18 @@ section:first-of-type > article:nth-of-type(2):hover {
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-     
     }
+
+    section:first-of-type > article:nth-of-type(3):hover {
+        background-color: burlywood;
+    } 
+    
     main:first-of-type > article {
         background-color: blueviolet;
         width: 32%;
         height: 100%;
         display: inline-block;
         
-    }
-    main:first-of-type > article:nth-of-type(2){
-        margin: 0 2%;
     }
     main:first-of-type > article:nth-of-type(1):hover {
         background-image: url(https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1258&q=80);
@@ -80,44 +72,15 @@ section:first-of-type > article:nth-of-type(2):hover {
     }
     main:first-of-type > article:nth-of-type(2):hover {
         background-image: url(./photo-1505691938895-1758d7feb511.jpeg);
-        background-size: contain
+        background-size: contain;
     }
-            header, header:first-of-type > img:nth-last-of-type(1){
-                display: block;
-                margin: auto;
-    }
+    main:first-of-type > article:nth-of-type(2){
+    margin: 0 2%;
+}
+            
     main:first-of-type > article:nth-of-type(3):hover {
         background-color: burlywood;
     background-position: center center;
     background-repeat: no-repeat;
-    
-}
-main:first-of-type > article {
-    background-color: blueviolet;
-    width: 32%;
-    height: 100%;
-    display: inline-block;
-    
-}
-main:first-of-type > article:nth-of-type(2){
-    margin: 0 2%;
-}
-main:first-of-type > article:nth-of-type(1):hover {
-    background-image: url(https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1258&q=80);
-    background-size: 100% 50%;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-main:first-of-type > article:nth-of-type(2):hover {
-    background-image: url(./photo-1505691938895-1758d7feb511.jpeg);
-    background-size: contain
-}
-main:first-of-type > article:nth-of-type(3):hover {
-    background-color: burlywood;
-}
-header, header:first-of-type > img:nth-last-of-type(1){
-            display: block;
-            margin: auto;
 }
 

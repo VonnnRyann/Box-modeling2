@@ -1,0 +1,35 @@
+div {
+    display: inline-block;
+    background-color: goldenrod;
+    border: green;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    font-size: 1rem;
+}
+section:first-of-type {
+    font-size: 0;
+}
+div:nth-of-type(1){
+    background-color: blue;
+    float: right;
+}
+div:nth-of-type(3){
+    background-color: greenyellow;
+    float: left;
+}
+img {
+    float: left;
+    margin-right: 20px;
+    box-shadow: -2px -4px 4px 4px red, 8px 8px blue;
+    border-radius: 20px;
+}
+span {
+    color: red;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 1px dashed black;
+}
+h1 {
+    clear: both;
+}
